@@ -18,9 +18,9 @@ DATABASES = {
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = os.environ=['DB_SECRET_KEY']
+SECRET_KEY = os.environ['SECRET_KEY']
 
-DEBUG = os.environ['DEBUG']
+DEBUG = os.getenv('DEBUG',default=False)
 
 ROOT_URLCONF = 'project.urls'
 

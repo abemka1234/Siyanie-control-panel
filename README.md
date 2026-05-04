@@ -27,7 +27,7 @@ SECRET_KEY="Секретный криптографический ключ дл�
 ```
 И запускаете код коммандой:
 ```
-python main.py
+python manage.py runserver
 ```
 
 ### Цель проекта
